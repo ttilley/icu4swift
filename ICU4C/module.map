@@ -1,0 +1,24 @@
+module ICU4C [system] {
+    header "/usr/local/include/unicode/uconfig.h"
+    header "/usr/local/include/unicode/uvernum.h"
+    header "/usr/local/include/unicode/platform.h"
+    header "/usr/local/include/unicode/ptypes.h"
+    header "/usr/local/include/unicode/umachine.h"
+    header "/usr/local/include/unicode/uversion.h"
+    header "/usr/local/include/unicode/utf.h"
+    header "/usr/local/include/unicode/utf8.h"
+    header "/usr/local/include/unicode/utf16.h"
+    header "/usr/local/include/unicode/utf_old.h"
+    header "/usr/local/include/unicode/utypes.h"
+    header "/usr/local/include/unicode/putil.h"
+    header "/usr/local/include/unicode/uchar.h"
+    header "/usr/local/include/unicode/uiter.h"
+    header "/usr/local/include/unicode/ustring.h"
+    header "/usr/local/include/unicode/utext.h"
+    header "/usr/local/include/unicode/localpointer.h"
+    header "/usr/local/include/unicode/parseerr.h"
+    header "/usr/local/include/unicode/uregex.h"
+    link "icucore"
+    export *
+}
+
